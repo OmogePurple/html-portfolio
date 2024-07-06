@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  margin-top: 18px;
+  margin-left: 15%;
+  padding: 0%;
+  border: 1px solid rgb(7, 7, 7); */
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 70%
+
+  
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  /* border: 2px solid black; */
+  margin: 20px;
+  padding: 20px;
+  height: 90.6%
+
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  height: 90.6%;
+  position: relative;
+  /* justify-content: center;  */
+  width: 30%;
+  /* border: 10px solid green */
+}
+
+.form {
+  /* border: 1px solid blue; */
+  
+}
+
+.ship{
+   display: flex;
+   color: white;
+   /* border: 1px solid red; */
+   margin-top: 20px;
+   margin-bottom: 200px;
+   margin-right: 300px;
+   margin-left: 20px;
+}
+
+.let{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  margin-right: 53px;
+  color: white;
+  font-size: x-large;
+}
+    
+.go {
+  display: flex;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+  font-size:xx-large;
+  color: white;
+}
+
+a{
+  display: flex;
+  /* border: 2px solid red; */
+  margin-left: 270px;
+  margin-top: 55px;
+  font-size: larger;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.para{
+  margin-left: 80px;
+  margin-right: 20px;
+  color: white;
+}
+
+.name{
+  display: flex; 
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.name input{
+  width: 28%;
+  padding: 10px;
+  margin: 2px;
+}
+
+
+.email{
+  display: flex;
+  margin-bottom: 8px;
+  width: 100%; 
+}
+
+.email input{
+  width: 91.1%;
+  padding: 10px;
+  margin: 2px;
+}
+
+.number{
+  display: flex;
+  margin-bottom: 8px;
+  width: 100%; 
+}
+.number input{
+  width: 91.1%;
+  padding: 10px;
+  margin: 2px;
+}
+
+.key{
+  display: flex;
+  margin-bottom: 8px;
+  width: 100%;
+}
+.key input{
+  width: 43.8%;
+  padding: 10px;
+  margin: 2px;
+}
+
+.refer{
+  display: flex;
+  margin-bottom: 8px;
+  width: 100%;}
+
+.refer input{
+  width: 43.8%;
+  padding: 10px;
+  margin: 2px;
+}
+
+.how{
+  display: flex;
+  margin-bottom: 8px;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.call{
+  width: 94%;
+  padding: 10px;
+  margin: 2px;
+  /* border: 2px solid blue; */
+  font-size: medium;
+}
+
+.address{
+  display: flex;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.address input{
+  width: 43.7%;
+  padding: 10px;
+  margin: 2px;
+}
+
+.city{
+  display: flex;
+  margin-bottom: 8px;
+  width: 100%;
+  
+}
+
+.city .one{
+  width: 40.3%;
+  
+}
+
+.one input{
+  padding: 10px;
+  width: 89.3%;
+}
+
+.city .two{
+  width: 40.3%;
+}
+
+.two select{
+  padding: 10px;
+  width: 99.3%;
+}
+
+.city .three{
+  width: 43.3%;
+}
+
+.three input{
+  padding: 10px;
+  width: 75%;
+}
+
+.checkbox{
+display: flex;
+font-size: larger;
+}
+
+button{
+  /* border: 1px solid red; */
+  border: 0;
+  margin-top: 15px;
+  color: white;
+  font-size:medium;
+  display: flex;
+  margin-left: 300px;
+  padding: 15px;
+  width: 150px;
+  align-self: center;
+  padding-left: 45px;
+  border-radius: 7px;
+  background-image: linear-gradient( to right, blue, aqua);
+}
+
+.formcontent{
+/* border: 1px solid red; */
+padding-left: 30px;
+margin-top: 20px;
+}
+
+.left img{
+  position: absolute;
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+}
+.overlay{
+  position: absolute;
+  /* border: 3px solid green; */
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+  opacity: 8%;
+}
+
+.last{
+  display: flex;
+  margin-left: 35%;
+  margin-top: 10px;
+}
