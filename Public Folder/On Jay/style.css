@@ -1,0 +1,26 @@
+*{margin: 0px;}
+*{padding: 0px;}
+html 
+    {background-color: black;}
+    p {color: white;}
+    button {color: white;}
+    button {background-color: transparent;}
+    button {border-color: white;}
+    button{padding: 5px;}
+img {width: 300px;}
+h1{color: white;}
+h1{
+    font-size: 75px;
+}
+table {color: white;}
+table{
+    border: 2px solid;
+    border-color: white;
+    border-collapse: collapse;
+}
+    tr{border-bottom: 2px solid;}
+    
+    td, th {
+        border-left: 2px solid;
+        padding: 4px;
+    }
